@@ -33,6 +33,7 @@ with open ('inventory.txt','w') as myFile:
 
 with open ('inventory.txt','r') as myFile:
     data = myFile.read()
+
 print(data)
 
 def check_inventory(file):
